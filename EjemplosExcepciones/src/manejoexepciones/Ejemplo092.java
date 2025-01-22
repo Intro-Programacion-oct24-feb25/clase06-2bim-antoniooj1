@@ -26,10 +26,10 @@ public class Ejemplo092 {
 
                 if (vocal == 'a' || vocal == 'e' || vocal == 'i' || vocal == 'o'
                         || vocal == 'u') {
-                    bandera = true;
-                }else{
-                    throw new Exception("No inicia con una vocal");
+                    throw new Exception("Ingrese un pais que inicie en "
+                            + "consonante");
                 }
+                bandera = false;
 
             } catch (Exception e) {
                 System.out.printf("Ocurrió una excepción %s\n", e);
