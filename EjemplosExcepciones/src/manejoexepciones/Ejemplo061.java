@@ -13,10 +13,10 @@ import java.util.Scanner;
  *
  * @author reroes﻿​_
  */
-public class Ejemplo06 {
+public class Ejemplo061 {
     
     public static void main(String[] args) {
-        //try{
+        try{
             Scanner entrada = new Scanner(System.in);
             System.out.println("Ingrese valor 1:");
             int valor1 = entrada.nextInt(); // se espera un valor entero
@@ -25,7 +25,7 @@ public class Ejemplo06 {
             int resultado = valor1 / valor2;
             double resultado2 = (double)resultado;
             System.out.printf("Resultado %d", resultado2);
-        /*}
+        }
         catch (InputMismatchException inputMismatchException) {
             
             System.out.printf("Existe un error de tipo %s\n", 
@@ -40,7 +40,7 @@ public class Ejemplo06 {
         catch(IllegalFormatConversionException i){
             System.out.println("Lo sentimos hay un error");
             System.out.printf("De tipo %s\n", i);
-            }*/
+        }
                
     }
 }
